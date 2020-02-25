@@ -83,7 +83,7 @@ spec:
       containers:
       - image: "{{.Values.databaseConfig.repository}}/{{.Values.databaseConfig.container}}:{{.Values.databaseConfig.tag}}"
         name: {{.Values.databaseConfig.name}}
-#TODO: Need to impliment the readiness probe
+#TODO: Need to implement the readiness probe
 #        readinessProbe:
 #          exec:
 #            command:
